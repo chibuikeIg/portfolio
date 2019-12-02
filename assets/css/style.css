@@ -1,0 +1,323 @@
+*{
+    font-family: 'Rum Raisin', sans-serif;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+header{
+    height: 60px;
+}
+
+.contact-btn{
+    width:130px;
+    position: absolute;
+    right: 60px;
+    border:1px solid rgb(18, 18, 27);
+    text-align:center;
+    border-radius: 10px;
+    top:20px;
+    transition: 1s;
+}
+
+.contact-btn a {
+    text-decoration:none;
+    display: block;
+    padding:5px !important;
+}
+
+.contact-btn:hover{
+    background-color: rgb(18, 18, 27);
+    transition: 2s;
+}
+
+.contact-btn:hover a{
+    color:#fff !important;
+}
+
+.logo{
+    width:130px;
+    position:absolute;
+    top:15px;
+    left:60px;
+}
+
+.logo strong{
+    font-size: 28px;
+}
+
+
+.career-title{
+    text-align: center;
+    font-size:35px;
+    margin-top:80px !important;
+}
+
+.profile_image{
+    border:1px solid #2014FF;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    margin:70px auto !important;
+}
+
+.profile_image img{
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.programmer{
+    text-align:center;
+}
+
+.about-section{
+    background-color: rgb(18, 18, 27);
+    padding:20px !important;
+    position: relative;
+    height: 90vh;
+}
+
+.about{
+    width:50%;
+    margin:0px auto !important;
+    padding-top:100px !important;
+}
+
+.short-info{
+    line-height: 28px;
+    text-align: justify;
+}
+
+.skill-set{
+    width:80%;
+    position: absolute;
+    bottom:0px;
+    top:600px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.my-pl-5{
+    padding-left:7rem !important;
+}
+
+
+.br{
+    border-right:1px solid #0000008e;
+}
+
+
+.ht-100{
+    height: 450px !important;
+}
+
+
+.icon-section{
+    padding:10px;
+    width:50%;
+    margin:40px auto !important;
+    text-align: center;
+}
+
+.icon{
+    font-size:5rem;
+    color:#2014FF;
+}
+
+.hr-border{
+    width:50%;
+    margin:10px auto !important;
+    border:1px solid #2014FF;
+    background-color: #2014FF;
+}
+
+
+.projects-section{
+    margin-top:25rem !important;
+}
+
+
+.mt-auto{
+    margin:50px auto !important;
+}
+
+
+.img-card{
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.rounded-border{
+    border-radius: 10px;
+}
+
+
+.card-overlay{
+    position: absolute;
+    height: 100%;
+    top:0px;
+    width:100%;
+    border-radius:10px;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.img-card img{
+    display: block;
+    backface-visibility: hidden;
+    transition: 5s ease;
+}
+
+
+.img-card:hover .card-overlay{
+    opacity: 1;
+    transition: .5s ease;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39, 36, 211, 0.712) 35%, rgb(0, 26, 255) 100%);
+}
+
+.card-overlay h4, .demo-btn {
+    display: none;
+}
+
+.img-card:hover .card-overlay h4, .img-card:hover .card-overlay .demo-btn {
+    display: block;
+}
+
+
+.demo-btn{
+    width:50%;
+    margin:2rem auto !important;
+    text-align:center;
+    border:2px solid #fff;
+    border-radius: 5px;
+}
+
+.demo-btn a {
+    display: block;
+    padding:10px !important;
+    text-decoration: none;
+    color:#fff;
+    transition:1s;
+}
+
+.demo-btn a:hover{
+    background-color: #fff;
+    color:#000;
+    border-radius: 2px;
+    transition:1s;
+}
+
+
+.mt-5-auto{
+    margin:10rem auto !important;
+}
+
+.bg-blue{
+    background-color: #2014FF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.445);
+}
+
+.contact-me{
+    background-color: #fff;
+    width:100%;
+    border-radius:10px;
+
+}
+
+.contact-me a{
+    color:#000;
+    display: block;
+    padding: 10px !important;
+    text-decoration: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.bordered-container{
+    border-radius:10px;
+}
+
+.wt{
+    width:60%;
+}
+
+.rounded-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border:1px solid #2014FF;
+    margin:0px auto !important
+}
+
+
+.rounded-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+
+.testimonials{
+    width:50%;
+    margin:100px auto !important;
+}
+
+
+.carousel-inner-card{
+    height: 315px;
+    overflow: hidden;
+}
+
+
+.footer{
+    padding:20px !important;
+    background-color: rgb(18, 18, 27);
+}
+
+.matt-farley{
+    color:#fff;
+    text-decoration:underline;
+}
+
+.matt-farley:hover{
+    color:#fff;
+}
+
+.mobile-skillset-view{
+    display: none;
+}
+
+.mail-link{
+    color:#2014FF;
+}
+
+.mail-link:hover{
+    text-decoration: none;
+    color:#2014FF;
+}
+
+.socialMedia-icons{
+    width:20%;
+    margin: 30px auto !important;
+}
+
+.social-icon{
+    color:#2014FF;
+}
+
+.social-icon:hover{
+    color:#2014FF;
+    text-decoration: none;
+}

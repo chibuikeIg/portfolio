@@ -49,7 +49,7 @@ toggleMode.forEach(tM=>{
 })
 
 let nightMode = localStorage.getItem('nightMode');
-if(nightMode ==null || nightMode == 'on' ) {
+if(nightMode == 'on' ) {
 
     darkBg.style.backgroundColor = '#000';
 

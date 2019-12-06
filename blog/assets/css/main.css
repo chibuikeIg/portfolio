@@ -210,3 +210,46 @@ ul li a:hover{
     border-radius: 10px;
 }
 
+.post-container {
+    max-width: 70%;
+}
+
+.border-top{
+    border-top:1px solid #eee8e8;
+}
+
+.text-deco-none{
+    text-decoration:none;
+    color:#000;
+}
+
+.text-deco-none:hover{
+    text-decoration: none;
+    color:#000;
+}
+
+.post-content img{
+    width:100%;
+}
+
+.post-content {
+    text-align:justify;
+}
+
+.clap-icon{
+    width:30px;
+    height: 30px;
+}
+
+.btn-blue{
+    background-color: #2014FF;
+    color:#fff;
+}
+
+.btn-blue:hover{
+    color:#fff;
+}
+
+.mt-8{
+    margin-top:8rem;
+}

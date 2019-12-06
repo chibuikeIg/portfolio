@@ -41,6 +41,14 @@
         margin-top:48px;
     }
 
+    .post-container{
+        max-width: 90%;
+    }
+
+    .mb-2{
+        margin-bottom: 3rem !important;
+    }
+
 
 }
 
@@ -94,10 +102,17 @@
         flex-direction: column;
     }
 
+    .post-container{
+        max-width: 90%;
+    }
     
 
     .changeFlexDir .full{
         max-width:100% ;
+    }
+
+    .mb-2{
+        margin-bottom: 3rem !important;
     }
 
 }
@@ -143,6 +158,21 @@
 
     .cus-pagination{
         width:80%;
+    }
+
+    .post-container{
+        max-width: 100%;
+    }
+
+    .mb-2{
+        margin-bottom: 3rem !important;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 390px) {
+    .text-none{
+        display: none;
     }
 
 }

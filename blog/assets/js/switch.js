@@ -12,7 +12,11 @@ toggleMode.forEach(tM=>{
         if(nightMode ==null || nightMode == 'off' ) {
 
             darkBg.style.backgroundColor = '#242424';
-            pagination.style.backgroundColor = '#242424';
+
+            if(pagination !=null) {
+                pagination.style.backgroundColor = '#242424';
+            }
+            
 
             whiteColor.forEach(wC=>{
                 wC.style.color = '#fff';
@@ -29,7 +33,10 @@ toggleMode.forEach(tM=>{
         }else if (nightMode == 'on') {
 
             darkBg.style.backgroundColor = '#fff';
-            pagination.style.backgroundColor = '#000';
+            if(pagination !=null){
+                pagination.style.backgroundColor = '#000';
+            }
+            
             whiteColor.forEach(wC=>{
                 wC.style.color = '#000';
             });
@@ -54,7 +61,10 @@ let nightMode = localStorage.getItem('nightMode');
 if(nightMode == 'on' ) {
 
     darkBg.style.backgroundColor = '#242424';
-    pagination.style.backgroundColor = '#242424';
+    
+    if(pagination !=null) {
+        pagination.style.backgroundColor = '#242424';
+    }
 
     whiteColor.forEach(wC=>{
         wC.style.color = '#fff';
@@ -69,7 +79,11 @@ if(nightMode == 'on' ) {
 }else if (nightMode == 'off') {
 
     darkBg.style.backgroundColor = '#fff';
-    pagination.style.backgroundColor = '#000';
+
+    if(pagination !=null){
+        pagination.style.backgroundColor = '#000';
+    }
+    
     whiteColor.forEach(wC=>{
         wC.style.color = '#000';
     });

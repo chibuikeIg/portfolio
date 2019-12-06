@@ -2,6 +2,7 @@ const darkBg     = document.querySelector('.dark-bg');
 const whiteColor = document.querySelectorAll('.white-color');
 const toggleMode = document.querySelectorAll('.toggle-mode');
 const borderWt   = document.querySelectorAll('.border-wt');
+const pagination = document.querySelector('.cus-pagination');
 
 
 toggleMode.forEach(tM=>{
@@ -10,7 +11,8 @@ toggleMode.forEach(tM=>{
         let nightMode= localStorage.getItem('nightMode');
         if(nightMode ==null || nightMode == 'off' ) {
 
-            darkBg.style.backgroundColor = '#000';
+            darkBg.style.backgroundColor = '#242424';
+            pagination.style.backgroundColor = '#242424';
 
             whiteColor.forEach(wC=>{
                 wC.style.color = '#fff';
@@ -27,7 +29,7 @@ toggleMode.forEach(tM=>{
         }else if (nightMode == 'on') {
 
             darkBg.style.backgroundColor = '#fff';
-
+            pagination.style.backgroundColor = '#000';
             whiteColor.forEach(wC=>{
                 wC.style.color = '#000';
             });
@@ -51,7 +53,8 @@ toggleMode.forEach(tM=>{
 let nightMode = localStorage.getItem('nightMode');
 if(nightMode == 'on' ) {
 
-    darkBg.style.backgroundColor = '#000';
+    darkBg.style.backgroundColor = '#242424';
+    pagination.style.backgroundColor = '#242424';
 
     whiteColor.forEach(wC=>{
         wC.style.color = '#fff';
@@ -66,7 +69,7 @@ if(nightMode == 'on' ) {
 }else if (nightMode == 'off') {
 
     darkBg.style.backgroundColor = '#fff';
-
+    pagination.style.backgroundColor = '#000';
     whiteColor.forEach(wC=>{
         wC.style.color = '#000';
     });

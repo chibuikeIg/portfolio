@@ -20,8 +20,35 @@ header{
     top:10px;
 }
 
-.logo strong{
+.logo strong,.menu strong{
     font-size:24px;
+}
+
+
+.menu{
+    position: absolute;
+    right:130px;
+    top:7px;
+}
+
+.drop-menu{
+    position: absolute;
+    width:30%;
+    right:30px;
+    top:38px;
+    padding:5px;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow:0px 2px 4px 0px rgba(0,0,0,0.2);
+    border-radius: 3px;
+    display: none;
+}
+
+.menu-link a {
+    display: block;
+    padding:8px;
+    text-decoration: none;
+    color: #000;
 }
 
 nav{
@@ -31,20 +58,20 @@ nav{
     top:10px;
 }
 
-ul li{
+nav ul li{
     list-style-type: none;
     float:left;
     margin-left:35px;
 }
 
-ul li a {
+nav ul li a {
     display: block;
     padding:10px;
     color:#000;
     font-family: 'Rum Raisin', sans-serif;
 }
 
-ul li a:hover{
+nav ul li a:hover{
     color:#000;
     text-decoration: none;
 }
@@ -252,4 +279,24 @@ ul li a:hover{
 
 .mt-8{
     margin-top:8rem;
+}
+
+.editor-container{
+    width:80%;
+    margin:5rem auto;
+}
+
+.title-form-control{
+    width:100%;
+    padding:15px;
+    border-radius: 3px;
+    border:1px solid #eee8e8;
+}
+
+
+.tag-form-control{
+    width:100%;
+    border:1px solid #eee8e8;
+    padding:10px;
+    border-radius: 3px;
 }

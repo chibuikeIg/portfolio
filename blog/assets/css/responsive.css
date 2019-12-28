@@ -15,7 +15,7 @@
         font-size:25px;
     }
 
-    ul li{
+    nav ul li{
         margin-left: 15px;
         float: right;
 
@@ -71,7 +71,7 @@
         font-size:25px;
     }
 
-    ul li{
+    nav ul li{
         margin-left: 15px;
         float: right;
 
@@ -136,7 +136,7 @@
         font-size:25px;
     }
 
-    ul li{
+    nav ul li{
         margin-left: 15px;
         float: right;
 
@@ -148,7 +148,7 @@
         right:25px;
     }
 
-    ul li:nth-child(3){
+    nav ul li:nth-child(3){
         display: none;
     }
 
